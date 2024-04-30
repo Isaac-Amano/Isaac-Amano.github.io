@@ -53,6 +53,6 @@ footer p {
     color: #a8dadc;
 }
 
-.dark-theme ul li:before {
+.dark-theme ul li: before {
     color: #a8dadc;
 }
