@@ -23,7 +23,7 @@ ul {
     list-style-type: none;
 }
 
-ul li:before {
+ul li: before {
     content: '▹ ';
     color: #6cb2eb;
 }
