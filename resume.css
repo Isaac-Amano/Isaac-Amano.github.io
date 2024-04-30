@@ -1,0 +1,58 @@
+body {
+    background-color: #e8f8ff;
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header, footer, section, article, div {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #6cb2eb;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li:before {
+    content: '▹ ';
+    color: #6cb2eb;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+/* Dark mode styles */
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme header,
+.dark-theme footer,
+.dark-theme section,
+.dark-theme article,
+.dark-theme div {
+    background-color: #454545;
+    color: #fff;
+}
+
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3 {
+    color: #a8dadc;
+}
+
+.dark-theme ul li:before {
+    color: #a8dadc;
+}
